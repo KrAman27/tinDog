@@ -1,0 +1,158 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.first-photo{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 20px;
+}
+
+.nav-item{
+    padding: 0 12px;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.item_nav{
+    color: #fff;
+}
+
+/* Feature Section */
+
+.feature{
+    text-align: center;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#features{
+    font-size: 135%;
+    padding: 10%;
+    background-color: #fff;
+}
+
+.text{
+    font-family: 'Ubuntu', sans-serif;
+    color: #8f8f8f;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: bold;
+}
+
+.carousel-item{
+    padding: 8% 13%;
+
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 70%;
+    margin:15px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+/* pricing section */
+
+#pricing{
+padding: 100px;
+    text-align: center;
+}
+
+h2{
+ font-weight: bold;
+ font-size: 40px;
+}
+
+.price{
+    padding: 3% 2%;
+}
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    color: #fff;
+    text-align:center;
+}
+
+.cta-heading{
+    line-height: 1.5;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3.5rem;    
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+/* media queries breakpoints*/
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+
+    .first-photo{
+    width: 70%;
+    transform: rotate(0);
+    }
+    
+}
